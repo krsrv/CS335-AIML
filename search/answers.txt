@@ -1,0 +1,23 @@
+Task 3:
+It is difficult to assign a cost between two states in the sudoku problem, other than the trivial function of giving a cost of 1 between 2 states that differ by a cell value.
+In addition to the problem of assigning a cost, in the Sudoku problem, the end state is not explicitly known. We instead only know certain properties of the end state, that is, if a particular state is an end state, then it should satisfy some known properties like uniqueness in rows, columns and squares. Since our aim is to find the end state itself here, it is very difficult to define a useful heuristic in this case which is admissible.
+A possible heuristic is simply the inverse of the number of cells that are yet to be filled. This way, we promote exploring the state which has lesser cells to be filled.
+Note here that the procedure of getting successors is different than choosing form the list of successor states using the heuristics.
+
+Task 7:
+          Djikstra's (= null heuristic in A*)     A*
+IIT       80                                      21
+Mumbai    26743                                   13051
+
+A* expands lesser nodes than Djikstra's because it is able to exploit the information we have in the form of approximations to the distance to end state from the current state.
+
+Possible heuristic would have been:
+Case 1 - If we have to visit each of the nodes:
+1. Minimum of distances to the given multiple nodes based on Haversine formula
+2. Maximum of distances to unvisited nodes among the multiple destination nodes given based on Haversine formula
+3. Null heuristic
+Both these heuristics will not necessarily give the optimal path
+
+Case 2 - If we have to visit only one of the nodes:
+1. Minimum of distances to the given multiple nodes based on Haversine formula
+2. Null heuristic

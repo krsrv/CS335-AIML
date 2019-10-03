@@ -1,0 +1,7 @@
+References:
+
+1. Sampling - https://stackoverflow.com/questions/8505651/non-repetitive-random-number-in-numpy
+2. NaN - https://stackoverflow.com/questions/19374254/assigning-a-variable-nan-in-python-without-numpy/19374296
+3. Tuple operations - https://stackoverflow.com/questions/497885/python-element-wise-tuple-operations-like-sum
+4. List manipulation - https://stackoverflow.com/questions/2793324/is-there-a-simple-way-to-delete-a-list-element-by-value
+5. Random module - https://docs.python.org/2/library/random.html

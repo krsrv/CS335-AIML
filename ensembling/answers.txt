@@ -1,0 +1,5 @@
+Task 3
+1. The accuracy of the boosting algorithm is around 97%, which is much greater than the accuracy of the bagging algorithm, which hovers around 90% for the same data. This can be expected because the boosting algorithm gives more importance to the incorrectly classified points, which allows the involved learning units to tune the network around those misclassified points. Meanwhile in bagging, there is no preference allotted to misclassified points and the units continue to learn independent of the results of one another. 
+2. True. A single perceptron is limited to learning linearly separable points, while an ensemble can learn more complex geometries by using several perceptrons. For example, a single perceptron will unable to accurately learn a dataset which contains points inside a square with positive labels and points outside with negative labels because the points are not linearly seperable. However, a combination of 4 perceptrons, each one learning a different edge of the square can together correctly differentiate between the points inside the square from the points outside.
+
+Task 4

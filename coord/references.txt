@@ -1,0 +1,6 @@
+1. Variance - https://docs.scipy.org/doc/numpy/reference/generated/numpy.var.html
+2. Mean - https://docs.scipy.org/doc/numpy/reference/generated/numpy.mean.html
+3. isinstance() - https://www.w3schools.com/python/ref_func_isinstance.asp
+4. arange() - https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.arange.html
+5. newaxis - https://stackoverflow.com/questions/29241056/how-does-numpy-newaxis-work-and-when-to-use-it
+6. transpose - https://stackoverflow.com/questions/36384760/transforming-a-row-vector-into-a-column-vector-in-numpy
